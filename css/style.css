@@ -6,13 +6,13 @@ form {
 
 input {
     width: 670px;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
     margin: 0;
-    outline: none;
     padding: 8px;
-    font-size: 18px;
     transition: border .2s;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 18px;
+    box-sizing: border-box;
 }
 
 input:hover,
@@ -23,10 +23,10 @@ input:focus {
 button {
     width: 40px;
     height: 40px;
+    border: 0;
+    outline: 0;
     background: url('../img/search.png') center center no-repeat #4285f4;
     background-size: 22px;
-    outline: 0;
-    border: 0;
 }
 
 .response {
